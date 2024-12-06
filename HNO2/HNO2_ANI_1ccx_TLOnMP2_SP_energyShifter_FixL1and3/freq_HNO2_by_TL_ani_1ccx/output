@@ -1,0 +1,33 @@
+ml:
+ <module 'mlatom' from '/mlatom/home/fatemealavi/mlatom_devBranch/mlatom/__init__.py'>
+************************ ANI-1ccx_GELU **************************
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv0.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv1.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv2.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv3.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv4.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv5.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv6.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv7.pt
+Optimized Geometry for Ani_1ccx_gelu:
+ [[ 0.          0.52101782  0.        ]
+ [-1.11754693  0.15314289  0.        ]
+ [ 0.89758939 -0.59083053 -0.        ]
+ [ 1.75966037 -0.1456236   0.        ]]
+elements:  molecule with 4 atom(s): N, O, O, H
+****************** Frequencies of All Models **********************
+
+************* Frequency Table *****************
+Frequencies of different models:
+ mode         freq_ANI_1ccx_gelu        exp        mp2    physnet_MP2_NN1    physnet_MP2_NN2    physnet_CCSD(T)_NN1    physnet_CCSD(T)_NN2    physnet_CCSD(T)_F12_NN1    physnet_CCSD(T)_F12_NN2
+---------  --------------------  ---------  ---------  -----------------  -----------------  ---------------------  ---------------------  -------------------------  -------------------------
+1                     553.46      543.88     551.35            551.59             551.72                 533.67                 533.93                     541.1                      542.37
+2                     561.894     595.62     565.97            566.02             566.12                 595.98                 596.32                     608.55                     608.92
+3                     763.085     790.12     765.83            766.25             765.86                 785.91                 786.93                     799.7                      799.04
+4                    1237.23     1263.21    1233.45           1235.12            1230.53                1260.08                1260.91                    1267.74                    1267.88
+5                    1638.3      1699.76    1637.31           1637.07            1636.84                1691.6                 1691.48                    1709.88                    1710.24
+6                    3576.41     3590.77    3577.17           3580.86            3581                   3580.01                3581.84                    3590.28                    3586.8
+MAE(exp)               28.6895      0         27.87             26.9783            27.8283                 6.13833                5.55833                    6.73833                    7.14167
+RMSE(exp)              33.2122      0         32.9028           32.462             33.2732                 7.23715                6.62397                    8.06086                    8.22736
+MAE(mp2)                2.40917    27.87       0                 1.05167            1.295                 25.255                 25.8617                    34.445                     33.6883
+RMSE(mp2)               2.72076    32.9028     0                 1.66829            1.98228               29.6676                29.9445                    40.165                     40.0525

@@ -1,0 +1,129 @@
+{
+    "type": "model_tree_node",
+    "name": "ani_gelu",
+    "children": [
+        {
+            "type": "model_tree_node",
+            "name": "nn0",
+            "children": null,
+            "operator": "predict",
+            "model": {
+                "type": "ml_model",
+                "ml_model_type": "mlatom.interfaces.torchani_interface.ani",
+                "kwargs": {
+                    "model_file": "/mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv0.pt"
+                },
+                "nthreads": 0
+            },
+            "nthreads": 0
+        },
+        {
+            "type": "model_tree_node",
+            "name": "nn1",
+            "children": null,
+            "operator": "predict",
+            "model": {
+                "type": "ml_model",
+                "ml_model_type": "mlatom.interfaces.torchani_interface.ani",
+                "kwargs": {
+                    "model_file": "/mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv1.pt"
+                },
+                "nthreads": 0
+            },
+            "nthreads": 0
+        },
+        {
+            "type": "model_tree_node",
+            "name": "nn2",
+            "children": null,
+            "operator": "predict",
+            "model": {
+                "type": "ml_model",
+                "ml_model_type": "mlatom.interfaces.torchani_interface.ani",
+                "kwargs": {
+                    "model_file": "/mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv2.pt"
+                },
+                "nthreads": 0
+            },
+            "nthreads": 0
+        },
+        {
+            "type": "model_tree_node",
+            "name": "nn3",
+            "children": null,
+            "operator": "predict",
+            "model": {
+                "type": "ml_model",
+                "ml_model_type": "mlatom.interfaces.torchani_interface.ani",
+                "kwargs": {
+                    "model_file": "/mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv3.pt"
+                },
+                "nthreads": 0
+            },
+            "nthreads": 0
+        },
+        {
+            "type": "model_tree_node",
+            "name": "nn4",
+            "children": null,
+            "operator": "predict",
+            "model": {
+                "type": "ml_model",
+                "ml_model_type": "mlatom.interfaces.torchani_interface.ani",
+                "kwargs": {
+                    "model_file": "/mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv4.pt"
+                },
+                "nthreads": 0
+            },
+            "nthreads": 0
+        },
+        {
+            "type": "model_tree_node",
+            "name": "nn5",
+            "children": null,
+            "operator": "predict",
+            "model": {
+                "type": "ml_model",
+                "ml_model_type": "mlatom.interfaces.torchani_interface.ani",
+                "kwargs": {
+                    "model_file": "/mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv5.pt"
+                },
+                "nthreads": 0
+            },
+            "nthreads": 0
+        },
+        {
+            "type": "model_tree_node",
+            "name": "nn6",
+            "children": null,
+            "operator": "predict",
+            "model": {
+                "type": "ml_model",
+                "ml_model_type": "mlatom.interfaces.torchani_interface.ani",
+                "kwargs": {
+                    "model_file": "/mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv6.pt"
+                },
+                "nthreads": 0
+            },
+            "nthreads": 0
+        },
+        {
+            "type": "model_tree_node",
+            "name": "nn7",
+            "children": null,
+            "operator": "predict",
+            "model": {
+                "type": "ml_model",
+                "ml_model_type": "mlatom.interfaces.torchani_interface.ani",
+                "kwargs": {
+                    "model_file": "/mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv7.pt"
+                },
+                "nthreads": 0
+            },
+            "nthreads": 0
+        }
+    ],
+    "operator": "average",
+    "model": null,
+    "nthreads": 0
+}

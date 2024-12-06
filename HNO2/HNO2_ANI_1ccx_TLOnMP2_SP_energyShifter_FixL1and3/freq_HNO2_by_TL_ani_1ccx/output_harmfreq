@@ -1,0 +1,31 @@
+ml:
+ <module 'mlatom' from '/mlatom/home/fatemealavi/mlatom_devBranch/mlatom/__init__.py'>
+************************ ANI-1ccx_GELU **************************
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv0.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv1.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv2.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv3.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv4.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv5.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv6.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_HNO2_new_model/HNO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv7.pt
+Optimized Geometry for Ani_1ccx_gelu:
+ [[ 0.          0.52101782  0.        ]
+ [-1.11754693  0.15314289  0.        ]
+ [ 0.89758939 -0.59083053 -0.        ]
+ [ 1.75966037 -0.1456236   0.        ]]
+elements:  molecule with 4 atom(s): N, O, O, H
+****************** Frequencies of All Models **********************
+
+************* Frequency Table *****************
+Frequencies of different models:
+ mode      freq_ANI_1ccx_gelu    physnet_MP2_NN1    physnet_MP2_NN2      mp2    physnet_CCSD(T)_NN1    physnet_CCSD(T)_NN2    CCSD(T)    physnet_CCSD(T)_F12_NN1    physnet_CCSD(T)_F12_NN2    CCSD(T)_F12
+------  --------------------  -----------------  -----------------  -------  ---------------------  ---------------------  ---------  -------------------------  -------------------------  -------------
+1                  582.658           586.44             586.45       586.53               565.06                 565.02     564.84                     573.12                      573.07        573.02
+2                  599.453           602.45             602.4        602.38               617.31                 617.34     617.2                      631.54                      631.55        631.4
+3                  803.507           805.28             805.18       805.2                815.84                 815.85     815.79                     831.14                      831.23        831.14
+4                 1283.51           1283.39            1283.37      1283.28              1305.94                1305.95    1305.94                    1315.91                     1315.85       1315.76
+5                 1661.55           1659.77            1659.76      1659.81              1715.12                1715.15    1715.35                    1733.36                     1733.39       1733.55
+6                 3754.74           3754.55            3754.4       3754.95              3759.58                3759.68    3760.3                     3774.84                     3774.96       3775.54
+MAE                  1.77805           0.131667           0.135        0                   21.6067                21.6433    21.775                     32.43                       32.47         32.5467
+RMSE                 2.21937           0.179397           0.231048     0                   27.053                 27.0762    27.1693                    37.7998                     37.826        37.8903
