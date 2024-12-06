@@ -1,0 +1,39 @@
+ml:
+ <module 'mlatom' from '/mlatom/home/fatemealavi/mlatom_devBranch/mlatom/__init__.py'>
+************************ ANI-1ccx_GELU **************************
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3OH_new_model/CH3OH_ANI_1ccx_TLOnCCSDT_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv0.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3OH_new_model/CH3OH_ANI_1ccx_TLOnCCSDT_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv1.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3OH_new_model/CH3OH_ANI_1ccx_TLOnCCSDT_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv2.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3OH_new_model/CH3OH_ANI_1ccx_TLOnCCSDT_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv3.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3OH_new_model/CH3OH_ANI_1ccx_TLOnCCSDT_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv4.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3OH_new_model/CH3OH_ANI_1ccx_TLOnCCSDT_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv5.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3OH_new_model/CH3OH_ANI_1ccx_TLOnCCSDT_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv6.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3OH_new_model/CH3OH_ANI_1ccx_TLOnCCSDT_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv7.pt
+Optimized Geometry for Ani_1ccx_gelu:
+ [[-0.04684053  0.666685    0.        ]
+ [ 0.43956798  1.07415195  0.89220112]
+ [ 0.43956798  1.07415195 -0.89220112]
+ [-1.09061199  0.97871506  0.        ]
+ [ 0.86724348 -1.05562594  0.        ]
+ [-0.04684053 -0.75893788  0.        ]]
+elements:  molecule with 6 atom(s): C, H, H, H, H, O
+****************** Frequencies of All Models **********************
+
+************* Frequency Table *****************
+Frequencies of different models:
+ mode      freq_ANI_1ccx_gelu    physnet_MP2_NN1    physnet_MP2_NN2        mp2    physnet_CCSD(T)_NN1    physnet_CCSD(T)_NN2    CCSD(T)
+------  --------------------  -----------------  -----------------  ---------  ---------------------  ---------------------  ---------
+1                  288.33              289.86             289.85     289.38               286.35                 286.33         285.95
+2                 1052.7              1056.62            1056.61    1056.64              1053.43                1053.41        1053.38
+3                 1081.7              1088.65            1088.59    1088.63              1082.2                 1082.18        1082.11
+4                 1175.84             1183.93            1183.91    1183.87              1175.88                1175.85        1175.72
+5                 1379.9              1371.59            1371.6     1371.57              1379.1                 1379.11        1379.01
+6                 1483.68             1491.97            1491.96    1492.01              1483.92                1483.91        1483.86
+7                 1511.68             1525.4             1525.42    1525.41              1512.18                1512.2         1512.16
+8                 1519.24             1535.71            1535.79    1535.8               1522.63                1522.65        1522.67
+9                 3011.1              3053.97            3054.05    3053.94              3010.68                3010.64        3010.43
+10                3069.54             3125.24            3125.24    3125.08              3068.92                3068.88        3068.65
+11                3126.57             3182.86            3182.88    3182.91              3128.02                3127.96        3127.97
+12                3844.85             3859.73            3859.8     3859.62              3843.44                3843.41        3843.27
+MAE                  1.09236            19.5992            19.6117    19.5467               0.1375                 0.1175         0
+RMSE                 1.43923            27.362             27.3811    27.3317               0.177177               0.157665       0
