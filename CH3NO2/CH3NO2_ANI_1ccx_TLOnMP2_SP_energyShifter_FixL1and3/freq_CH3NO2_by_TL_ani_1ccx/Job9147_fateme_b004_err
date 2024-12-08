@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/freq_CH3NO2_by_TL_ani_1ccx/master.py", line 49, in <module>
+    ml.simulations.freq(model = ani_1ccx_gelu, program = 'gaussian', molecule = optmol_ani1ccxGelu, anharmonic = True)
+  File "/mlatom/home/fatemealavi/mlatom_devBranch/mlatom/simulations.py", line 322, in __init__
+    if self.program.casefold() == 'Gaussian'.casefold(): self.freq_gaussian(anharmonic)
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mlatom/home/fatemealavi/mlatom_devBranch/mlatom/simulations.py", line 357, in freq_gaussian
+    gaussian_interface.read_anharmonic_frequencies(outputfile,self.molecule)
+  File "/mlatom/home/fatemealavi/mlatom_devBranch/mlatom/interfaces/gaussian_interface.py", line 454, in read_anharmonic_frequencies
+    anharmonic_frequencies.append(eval(templine[38:48]))
+                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 1
+    **********
+    ^^
+SyntaxError: invalid syntax
