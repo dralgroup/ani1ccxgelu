@@ -1,0 +1,62 @@
+DATA SET FORMAT:
+
+
+The data is saved in a compressed numpy binary file (.npz) and
+each file name contains the molecular formula, the level of
+theory (cc for CCSD(T) and ccf12 for CCSD(T)-F12) and the number
+of molecular geometries. The .npz files contain a python dictionary
+with seven numpy arrays:
+
+
+N: Number of atoms in structure (num_data,)
+R: Cartesian Coordinates of atoms (in Angstrom [A]), (num_data, N, 3)
+Q: Total charge (in elementary charges [e]), (num_data,)
+D: Dipole moment vector (in elementary charges times
+   Angstrom [eA]), (num_data, 3)
+E: Potential energy with respect to free atoms (in electronvolt [eV]), (num_data,)
+F: Forces acting on atoms (in electronvolt per Angstrom [eV/A]), (num_data, N, 3)
+Z: Atomic number of atoms, (num_data, N)
+
+
+It is important to note that the potential energies of the structures
+are given with respect to free atoms. Thus, the constants listed below
+are subtracted from the Molpro output for each occurence of the
+corresponding atoms:
+
+For MP2:
+H: -0.499821176024 hartree
+C: -37.759560677467 hartree
+N: -54.378718238926 hartree
+O: -74.959294141352 hartree
+
+For CCSD(T):
+H: -0.499821176024 hartree
+C: -37.781729036374 hartree
+N: -54.417460984741 hartree
+O: -74.978822592569 hartree
+
+For CCSD(T)-F12:
+H: -0.499946213283 hartree
+C: -37.788204984713 hartree
+N: -54.431256918915 hartree
+O: -75.000839553994 hartree
+
+
+---------------------------------------------------------------------------------------
+ACCESS DATA SET:
+
+The data sets can be accessed using python:
+
+>>> data = np.load("ch2o_mp2_avtz_3601.npz")
+
+The different keywords of the python dictionary can be listed using
+
+>>> data.files
+>>>['Q', 'D', 'F', 'Z', 'R', 'E', 'N']
+
+and the individual entries can be loaded using the appropriate
+keyword, e.g. for the energy
+
+>>> energies = data["E"]
+
+
