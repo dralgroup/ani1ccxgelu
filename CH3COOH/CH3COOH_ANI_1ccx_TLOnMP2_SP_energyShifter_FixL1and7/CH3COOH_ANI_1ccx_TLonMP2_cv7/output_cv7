@@ -1,0 +1,1555 @@
+ml:
+ <module 'mlatom' from '/mlatom/home/fatemealavi/mlatom_devBranch/mlatom/__init__.py'>
+*************** Splitting data *********************
+************************ ANI-1ccx_GELU_single precision **************************
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+Sequential(
+  (0): AEVComputer()
+  (1): ANIModel(
+    (H): Sequential(
+      (0): Linear(in_features=384, out_features=160, bias=True)
+      (1): GELU(approximate='none')
+      (2): Linear(in_features=160, out_features=128, bias=True)
+      (3): GELU(approximate='none')
+      (4): Linear(in_features=128, out_features=96, bias=True)
+      (5): GELU(approximate='none')
+      (6): Linear(in_features=96, out_features=1, bias=True)
+    )
+    (C): Sequential(
+      (0): Linear(in_features=384, out_features=144, bias=True)
+      (1): GELU(approximate='none')
+      (2): Linear(in_features=144, out_features=112, bias=True)
+      (3): GELU(approximate='none')
+      (4): Linear(in_features=112, out_features=96, bias=True)
+      (5): GELU(approximate='none')
+      (6): Linear(in_features=96, out_features=1, bias=True)
+    )
+    (N): Sequential(
+      (0): Linear(in_features=384, out_features=128, bias=True)
+      (1): GELU(approximate='none')
+      (2): Linear(in_features=128, out_features=112, bias=True)
+      (3): GELU(approximate='none')
+      (4): Linear(in_features=112, out_features=96, bias=True)
+      (5): GELU(approximate='none')
+      (6): Linear(in_features=96, out_features=1, bias=True)
+    )
+    (O): Sequential(
+      (0): Linear(in_features=384, out_features=128, bias=True)
+      (1): GELU(approximate='none')
+      (2): Linear(in_features=128, out_features=112, bias=True)
+      (3): GELU(approximate='none')
+      (4): Linear(in_features=112, out_features=96, bias=True)
+      (5): GELU(approximate='none')
+      (6): Linear(in_features=96, out_features=1, bias=True)
+    )
+  )
+)
+training starting from epoch 1
+validation MSE: 0.0015437692628845672 at epoch 1
+learning_rate: 0.001
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 2.6420805047860743e-08 at epoch 2
+learning_rate: 0.001
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 3.6905150306196316e-08 at epoch 3
+learning_rate: 0.001
+validation MSE: 4.191500579334936e-08 at epoch 4
+learning_rate: 0.001
+validation MSE: 5.06105698780185e-08 at epoch 5
+learning_rate: 0.001
+validation MSE: 9.448334194019153e-08 at epoch 6
+learning_rate: 0.001
+validation MSE: 7.596412642793816e-08 at epoch 7
+learning_rate: 0.001
+validation MSE: 9.950446455018929e-08 at epoch 8
+learning_rate: 0.001
+validation MSE: 1.8044178162534624e-07 at epoch 9
+learning_rate: 0.001
+validation MSE: 1.4495001521162722e-07 at epoch 10
+learning_rate: 0.001
+validation MSE: 5.935243406872827e-09 at epoch 11
+learning_rate: 0.001
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.706976120428686e-08 at epoch 12
+learning_rate: 0.001
+validation MSE: 1.7134387289458425e-07 at epoch 13
+learning_rate: 0.001
+validation MSE: 2.257585571136312e-07 at epoch 14
+learning_rate: 0.001
+validation MSE: 2.756765731802709e-07 at epoch 15
+learning_rate: 0.001
+validation MSE: 2.7790674255584744e-07 at epoch 16
+learning_rate: 0.001
+validation MSE: 2.7118062993970415e-07 at epoch 17
+learning_rate: 0.001
+validation MSE: 4.141085187453919e-09 at epoch 18
+learning_rate: 0.001
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 8.298158703608905e-09 at epoch 19
+learning_rate: 0.001
+validation MSE: 1.7243505857042713e-08 at epoch 20
+learning_rate: 0.001
+validation MSE: 3.8037796413761514e-08 at epoch 21
+learning_rate: 0.001
+validation MSE: 2.329420410247816e-07 at epoch 22
+learning_rate: 0.001
+validation MSE: 1.888245616446015e-07 at epoch 23
+learning_rate: 0.001
+validation MSE: 1.813611940003349e-07 at epoch 24
+learning_rate: 0.001
+validation MSE: 1.6533459089013738e-07 at epoch 25
+learning_rate: 0.001
+validation MSE: 1.7528702562888354e-07 at epoch 26
+learning_rate: 0.001
+validation MSE: 1.6755559980317448e-07 at epoch 27
+learning_rate: 0.001
+validation MSE: 4.057179342796142e-09 at epoch 28
+learning_rate: 0.001
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.3281481106356005e-09 at epoch 29
+learning_rate: 0.001
+validation MSE: 3.308758677388975e-08 at epoch 30
+learning_rate: 0.001
+validation MSE: 1.590246538213714e-08 at epoch 31
+learning_rate: 0.001
+validation MSE: 7.860843809784079e-08 at epoch 32
+learning_rate: 0.001
+validation MSE: 8.318349594389549e-08 at epoch 33
+learning_rate: 0.001
+validation MSE: 9.53397471358992e-08 at epoch 34
+learning_rate: 0.001
+validation MSE: 6.307353243605241e-08 at epoch 35
+learning_rate: 0.001
+validation MSE: 7.87749073217945e-08 at epoch 36
+learning_rate: 0.001
+validation MSE: 3.716429923716704e-08 at epoch 37
+learning_rate: 0.001
+validation MSE: 2.504030875127182e-09 at epoch 38
+learning_rate: 0.001
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 1.4592356887297228e-08 at epoch 39
+learning_rate: 0.001
+validation MSE: 1.8751272541623986e-08 at epoch 40
+learning_rate: 0.001
+validation MSE: 3.933836436689659e-09 at epoch 41
+learning_rate: 0.001
+validation MSE: 4.386327044219224e-09 at epoch 42
+learning_rate: 0.001
+validation MSE: 8.266747716273857e-09 at epoch 43
+learning_rate: 0.001
+validation MSE: 7.798012713469687e-09 at epoch 44
+learning_rate: 0.001
+validation MSE: 6.632517971333587e-09 at epoch 45
+learning_rate: 0.001
+validation MSE: 3.771877046284373e-09 at epoch 46
+learning_rate: 0.001
+validation MSE: 4.584404076599949e-09 at epoch 47
+learning_rate: 0.001
+validation MSE: 1.3978135752566441e-08 at epoch 48
+learning_rate: 0.001
+validation MSE: 2.5232242294075053e-09 at epoch 49
+learning_rate: 0.001
+validation MSE: 5.720352054078492e-09 at epoch 50
+learning_rate: 0.001
+validation MSE: 2.726769620257926e-09 at epoch 51
+learning_rate: 0.001
+validation MSE: 3.0369099894088077e-08 at epoch 52
+learning_rate: 0.001
+validation MSE: 1.3641167932920496e-08 at epoch 53
+learning_rate: 0.001
+validation MSE: 1.2474086867624211e-08 at epoch 54
+learning_rate: 0.001
+validation MSE: 8.596764598754182e-09 at epoch 55
+learning_rate: 0.001
+validation MSE: 3.807959335630798e-09 at epoch 56
+learning_rate: 0.001
+validation MSE: 4.0632650884130664e-09 at epoch 57
+learning_rate: 0.001
+validation MSE: 4.379982527621908e-09 at epoch 58
+learning_rate: 0.001
+validation MSE: 1.6102907041250345e-07 at epoch 59
+learning_rate: 0.001
+validation MSE: 1.9747951703740983e-09 at epoch 60
+learning_rate: 0.001
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 2.7349082678152935e-09 at epoch 61
+learning_rate: 0.001
+validation MSE: 2.2543054361481377e-09 at epoch 62
+learning_rate: 0.001
+validation MSE: 2.3086688195916292e-08 at epoch 63
+learning_rate: 0.001
+validation MSE: 2.8356419785889156e-09 at epoch 64
+learning_rate: 0.001
+validation MSE: 4.46262519538673e-09 at epoch 65
+learning_rate: 0.001
+validation MSE: 5.914698667985712e-09 at epoch 66
+learning_rate: 0.001
+validation MSE: 6.839713322317579e-09 at epoch 67
+learning_rate: 0.001
+validation MSE: 5.278055307832354e-09 at epoch 68
+learning_rate: 0.001
+validation MSE: 5.34481531787414e-09 at epoch 69
+learning_rate: 0.001
+validation MSE: 1.1943544869267775e-08 at epoch 70
+learning_rate: 0.001
+validation MSE: 3.3385163743265896e-09 at epoch 71
+learning_rate: 0.001
+validation MSE: 3.001350157269798e-09 at epoch 72
+learning_rate: 0.001
+validation MSE: 1.025620129878363e-08 at epoch 73
+learning_rate: 0.001
+validation MSE: 1.784735789989785e-08 at epoch 74
+learning_rate: 0.001
+validation MSE: 5.6142549199069965e-09 at epoch 75
+learning_rate: 0.001
+validation MSE: 9.053588419915757e-09 at epoch 76
+learning_rate: 0.001
+validation MSE: 1.2389576964465618e-08 at epoch 77
+learning_rate: 0.001
+validation MSE: 1.3360470537378053e-08 at epoch 78
+learning_rate: 0.001
+validation MSE: 1.2751007793309706e-08 at epoch 79
+learning_rate: 0.001
+validation MSE: 1.4049251816853578e-08 at epoch 80
+learning_rate: 0.001
+validation MSE: 4.784084657257268e-09 at epoch 81
+learning_rate: 0.001
+validation MSE: 3.77419615679058e-09 at epoch 82
+learning_rate: 0.001
+validation MSE: 2.5385810021775356e-09 at epoch 83
+learning_rate: 0.001
+validation MSE: 2.1447356836812735e-08 at epoch 84
+learning_rate: 0.001
+validation MSE: 7.325982636355601e-09 at epoch 85
+learning_rate: 0.001
+validation MSE: 1.0632224801146172e-08 at epoch 86
+learning_rate: 0.001
+validation MSE: 7.675419583501433e-09 at epoch 87
+learning_rate: 0.001
+validation MSE: 6.986656269610386e-09 at epoch 88
+learning_rate: 0.001
+validation MSE: 6.69804063932893e-09 at epoch 89
+learning_rate: 0.001
+validation MSE: 6.479141698039436e-09 at epoch 90
+learning_rate: 0.001
+validation MSE: 5.966731565649594e-09 at epoch 91
+learning_rate: 0.001
+validation MSE: 5.600870543646882e-09 at epoch 92
+learning_rate: 0.001
+validation MSE: 2.27789563183217e-09 at epoch 93
+learning_rate: 0.001
+validation MSE: 2.21967819205452e-09 at epoch 94
+learning_rate: 0.001
+validation MSE: 7.220440718475262e-09 at epoch 95
+learning_rate: 0.001
+validation MSE: 2.5283205373414436e-08 at epoch 96
+learning_rate: 0.001
+validation MSE: 7.95487462946506e-09 at epoch 97
+learning_rate: 0.001
+validation MSE: 1.2918264681184143e-08 at epoch 98
+learning_rate: 0.001
+validation MSE: 8.620927041773107e-09 at epoch 99
+learning_rate: 0.001
+validation MSE: 8.48105047561557e-09 at epoch 100
+learning_rate: 0.001
+validation MSE: 1.0888279397009526e-08 at epoch 101
+learning_rate: 0.001
+validation MSE: 1.1300051434536073e-08 at epoch 102
+learning_rate: 0.001
+validation MSE: 2.220309585408354e-09 at epoch 103
+learning_rate: 0.001
+validation MSE: 2.5264856999987525e-09 at epoch 104
+learning_rate: 0.001
+validation MSE: 5.673871859849004e-09 at epoch 105
+learning_rate: 0.001
+validation MSE: 1.2908148398959953e-08 at epoch 106
+learning_rate: 0.001
+validation MSE: 8.479709598688633e-09 at epoch 107
+learning_rate: 0.001
+validation MSE: 8.346421579116414e-09 at epoch 108
+learning_rate: 0.001
+validation MSE: 9.092352619882516e-09 at epoch 109
+learning_rate: 0.001
+validation MSE: 1.0380606715462091e-08 at epoch 110
+learning_rate: 0.001
+validation MSE: 8.179393384821765e-09 at epoch 111
+learning_rate: 0.001
+validation MSE: 7.002140783553661e-09 at epoch 112
+learning_rate: 0.001
+validation MSE: 5.219196509769243e-09 at epoch 113
+learning_rate: 0.001
+validation MSE: 4.735779810868645e-09 at epoch 114
+learning_rate: 0.001
+validation MSE: 1.7334191291952712e-08 at epoch 115
+learning_rate: 0.001
+validation MSE: 8.069661524994453e-09 at epoch 116
+learning_rate: 0.001
+validation MSE: 9.74983536321216e-09 at epoch 117
+learning_rate: 0.001
+validation MSE: 8.438571386821669e-09 at epoch 118
+learning_rate: 0.001
+validation MSE: 7.626888103009098e-09 at epoch 119
+learning_rate: 0.001
+validation MSE: 5.9034996643706316e-09 at epoch 120
+learning_rate: 0.001
+validation MSE: 4.974082323953721e-09 at epoch 121
+learning_rate: 0.001
+validation MSE: 1.11634453021044e-09 at epoch 122
+learning_rate: 0.001
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 1.0208632620759582e-08 at epoch 123
+learning_rate: 0.001
+validation MSE: 1.3134771195954431e-08 at epoch 124
+learning_rate: 0.001
+validation MSE: 9.394434377659416e-09 at epoch 125
+learning_rate: 0.001
+validation MSE: 5.598014323808165e-09 at epoch 126
+learning_rate: 0.001
+validation MSE: 7.77749674388577e-09 at epoch 127
+learning_rate: 0.001
+validation MSE: 1.1420804689988285e-08 at epoch 128
+learning_rate: 0.001
+validation MSE: 1.0755802615794174e-08 at epoch 129
+learning_rate: 0.001
+validation MSE: 9.657288368150897e-09 at epoch 130
+learning_rate: 0.001
+validation MSE: 8.951053184973181e-09 at epoch 131
+learning_rate: 0.001
+validation MSE: 2.947571227680093e-09 at epoch 132
+learning_rate: 0.001
+validation MSE: 9.669544450590352e-10 at epoch 133
+learning_rate: 0.001
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 2.154631458403079e-09 at epoch 134
+learning_rate: 0.001
+validation MSE: 1.3136363238215878e-09 at epoch 135
+learning_rate: 0.001
+validation MSE: 7.90896476051231e-09 at epoch 136
+learning_rate: 0.001
+validation MSE: 1.0439103639421147e-08 at epoch 137
+learning_rate: 0.001
+validation MSE: 1.1957653723911633e-08 at epoch 138
+learning_rate: 0.001
+validation MSE: 1.1739242834932904e-08 at epoch 139
+learning_rate: 0.001
+validation MSE: 1.2258977354151045e-08 at epoch 140
+learning_rate: 0.001
+validation MSE: 2.906483859576875e-09 at epoch 141
+learning_rate: 0.001
+validation MSE: 1.006524915443708e-09 at epoch 142
+learning_rate: 0.001
+validation MSE: 1.278558125123948e-09 at epoch 143
+learning_rate: 0.001
+validation MSE: 4.9307032507916716e-09 at epoch 144
+learning_rate: 0.001
+validation MSE: 2.284988041392092e-09 at epoch 145
+learning_rate: 0.001
+validation MSE: 2.776616152787963e-09 at epoch 146
+learning_rate: 0.001
+validation MSE: 6.524951921014007e-09 at epoch 147
+learning_rate: 0.001
+validation MSE: 1.0388945454466019e-08 at epoch 148
+learning_rate: 0.001
+validation MSE: 1.2824220019000168e-08 at epoch 149
+learning_rate: 0.001
+validation MSE: 1.496485354838096e-08 at epoch 150
+learning_rate: 0.001
+validation MSE: 1.6970979233156668e-08 at epoch 151
+learning_rate: 0.001
+validation MSE: 7.367843972146581e-09 at epoch 152
+learning_rate: 0.001
+validation MSE: 1.2699888515543205e-09 at epoch 153
+learning_rate: 0.001
+validation MSE: 2.395823044037774e-09 at epoch 154
+learning_rate: 0.001
+validation MSE: 2.394579815367552e-09 at epoch 155
+learning_rate: 0.001
+validation MSE: 6.1319585024590805e-09 at epoch 156
+learning_rate: 0.001
+validation MSE: 3.794496140212109e-09 at epoch 157
+learning_rate: 0.001
+validation MSE: 1.2260573974537058e-08 at epoch 158
+learning_rate: 0.001
+validation MSE: 1.9852668434696838e-08 at epoch 159
+learning_rate: 0.001
+validation MSE: 2.318190789342296e-08 at epoch 160
+learning_rate: 0.001
+validation MSE: 1.9079318484422127e-08 at epoch 161
+learning_rate: 0.001
+validation MSE: 1.5866127033326067e-08 at epoch 162
+learning_rate: 0.001
+validation MSE: 9.710783367721785e-09 at epoch 163
+learning_rate: 0.001
+validation MSE: 6.7399616637634455e-09 at epoch 164
+learning_rate: 0.001
+validation MSE: 7.211728246009439e-09 at epoch 165
+learning_rate: 0.001
+validation MSE: 4.7391876315411666e-09 at epoch 166
+learning_rate: 0.001
+validation MSE: 9.516027445369966e-09 at epoch 167
+learning_rate: 0.001
+validation MSE: 7.43805461073642e-09 at epoch 168
+learning_rate: 0.001
+validation MSE: 1.4865672856016275e-08 at epoch 169
+learning_rate: 0.001
+validation MSE: 1.1332991125599931e-08 at epoch 170
+learning_rate: 0.001
+validation MSE: 1.0876704638659028e-08 at epoch 171
+learning_rate: 0.001
+validation MSE: 1.0085361020457715e-08 at epoch 172
+learning_rate: 0.001
+validation MSE: 1.6187711095353572e-08 at epoch 173
+learning_rate: 0.001
+validation MSE: 1.5664637572723634e-09 at epoch 174
+learning_rate: 0.001
+validation MSE: 2.0645192855446194e-08 at epoch 175
+learning_rate: 0.001
+validation MSE: 8.159903191546582e-08 at epoch 176
+learning_rate: 0.001
+validation MSE: 3.85710439207883e-08 at epoch 177
+learning_rate: 0.001
+validation MSE: 2.6229267968172257e-09 at epoch 178
+learning_rate: 0.001
+validation MSE: 1.0874426201878036e-08 at epoch 179
+learning_rate: 0.001
+validation MSE: 3.214659403903131e-08 at epoch 180
+learning_rate: 0.001
+validation MSE: 3.1597750407760935e-08 at epoch 181
+learning_rate: 0.001
+validation MSE: 2.9641403400576935e-08 at epoch 182
+learning_rate: 0.001
+validation MSE: 9.689629363165325e-09 at epoch 183
+learning_rate: 0.001
+validation MSE: 3.4497639844977497e-09 at epoch 184
+learning_rate: 0.001
+validation MSE: 1.7052474545016574e-09 at epoch 185
+learning_rate: 0.001
+validation MSE: 2.1117549286821885e-09 at epoch 186
+learning_rate: 0.001
+validation MSE: 1.7667482574177205e-08 at epoch 187
+learning_rate: 0.001
+validation MSE: 5.524876698676049e-09 at epoch 188
+learning_rate: 0.001
+validation MSE: 1.990675986931953e-08 at epoch 189
+learning_rate: 0.001
+validation MSE: 2.3540133536583246e-08 at epoch 190
+learning_rate: 0.001
+validation MSE: 2.561036888128072e-08 at epoch 191
+learning_rate: 0.001
+validation MSE: 2.51775976756235e-08 at epoch 192
+learning_rate: 0.001
+validation MSE: 1.5046088783697544e-08 at epoch 193
+learning_rate: 0.001
+validation MSE: 3.748427136613783e-08 at epoch 194
+learning_rate: 0.001
+validation MSE: 5.36735240464654e-09 at epoch 195
+learning_rate: 0.001
+validation MSE: 1.1606027256300346e-08 at epoch 196
+learning_rate: 0.001
+validation MSE: 2.3361557570888264e-09 at epoch 197
+learning_rate: 0.001
+validation MSE: 5.050264744879703e-09 at epoch 198
+learning_rate: 0.001
+validation MSE: 3.764662787893006e-09 at epoch 199
+learning_rate: 0.0005
+validation MSE: 2.5224018144675948e-08 at epoch 200
+learning_rate: 0.0005
+validation MSE: 2.4857035918825825e-08 at epoch 201
+learning_rate: 0.0005
+validation MSE: 2.2125046624297133e-08 at epoch 202
+learning_rate: 0.0005
+validation MSE: 1.84485817961044e-08 at epoch 203
+learning_rate: 0.0005
+validation MSE: 1.7888822849659165e-08 at epoch 204
+learning_rate: 0.0005
+validation MSE: 1.6750091697228054e-08 at epoch 205
+learning_rate: 0.0005
+validation MSE: 1.411458804029326e-08 at epoch 206
+learning_rate: 0.0005
+validation MSE: 1.1101194421521938e-08 at epoch 207
+learning_rate: 0.0005
+validation MSE: 8.473160978097031e-09 at epoch 208
+learning_rate: 0.0005
+validation MSE: 6.314719310678542e-09 at epoch 209
+learning_rate: 0.0005
+validation MSE: 4.655975006430981e-09 at epoch 210
+learning_rate: 0.0005
+validation MSE: 3.4458279523491847e-09 at epoch 211
+learning_rate: 0.0005
+validation MSE: 2.606485920935534e-09 at epoch 212
+learning_rate: 0.0005
+validation MSE: 2.0424070895307767e-09 at epoch 213
+learning_rate: 0.0005
+validation MSE: 1.6640279594733493e-09 at epoch 214
+learning_rate: 0.0005
+validation MSE: 1.4028367832630853e-09 at epoch 215
+learning_rate: 0.0005
+validation MSE: 1.2200798102583723e-09 at epoch 216
+learning_rate: 0.0005
+validation MSE: 1.0922278366326223e-09 at epoch 217
+learning_rate: 0.0005
+validation MSE: 1.0090350000733386e-09 at epoch 218
+learning_rate: 0.0005
+validation MSE: 9.614172237959883e-10 at epoch 219
+learning_rate: 0.0005
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 9.483515947607265e-10 at epoch 220
+learning_rate: 0.0005
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 9.654861650637991e-10 at epoch 221
+learning_rate: 0.0005
+validation MSE: 1.0052659442313488e-09 at epoch 222
+learning_rate: 0.0005
+validation MSE: 1.0643057814054074e-09 at epoch 223
+learning_rate: 0.0005
+validation MSE: 1.1404088375810319e-09 at epoch 224
+learning_rate: 0.0005
+validation MSE: 1.2342847901876406e-09 at epoch 225
+learning_rate: 0.0005
+validation MSE: 1.3480485599359548e-09 at epoch 226
+learning_rate: 0.0005
+validation MSE: 1.4921656511243373e-09 at epoch 227
+learning_rate: 0.0005
+validation MSE: 1.674704004030535e-09 at epoch 228
+learning_rate: 0.0005
+validation MSE: 1.909002798946932e-09 at epoch 229
+learning_rate: 0.0005
+validation MSE: 2.2121737789774254e-09 at epoch 230
+learning_rate: 0.0005
+validation MSE: 2.5895897443223033e-09 at epoch 231
+learning_rate: 0.0005
+validation MSE: 3.060287971562251e-09 at epoch 232
+learning_rate: 0.0005
+validation MSE: 3.617197209416632e-09 at epoch 233
+learning_rate: 0.0005
+validation MSE: 4.260994447653824e-09 at epoch 234
+learning_rate: 0.0005
+validation MSE: 4.925862156179133e-09 at epoch 235
+learning_rate: 0.0005
+validation MSE: 5.5122376309573705e-09 at epoch 236
+learning_rate: 0.0005
+validation MSE: 5.8645105144268895e-09 at epoch 237
+learning_rate: 0.0005
+validation MSE: 5.848655453534885e-09 at epoch 238
+learning_rate: 0.0005
+validation MSE: 5.507055052512776e-09 at epoch 239
+learning_rate: 0.0005
+validation MSE: 5.0206281497961964e-09 at epoch 240
+learning_rate: 0.0005
+validation MSE: 4.5171277626567735e-09 at epoch 241
+learning_rate: 0.0005
+validation MSE: 4.0829453512766276e-09 at epoch 242
+learning_rate: 0.0005
+validation MSE: 3.691689204270788e-09 at epoch 243
+learning_rate: 0.0005
+validation MSE: 3.3530732973655047e-09 at epoch 244
+learning_rate: 0.0005
+validation MSE: 3.0114585974620885e-09 at epoch 245
+learning_rate: 0.0005
+validation MSE: 2.6562682862479956e-09 at epoch 246
+learning_rate: 0.0005
+validation MSE: 2.3121104659656086e-09 at epoch 247
+learning_rate: 0.0005
+validation MSE: 1.982445813546783e-09 at epoch 248
+learning_rate: 0.0005
+validation MSE: 1.6993813987783303e-09 at epoch 249
+learning_rate: 0.0005
+validation MSE: 1.4650152684645913e-09 at epoch 250
+learning_rate: 0.0005
+validation MSE: 1.2942002550068248e-09 at epoch 251
+learning_rate: 0.0005
+validation MSE: 1.1652514752409796e-09 at epoch 252
+learning_rate: 0.0005
+validation MSE: 1.0746707126028219e-09 at epoch 253
+learning_rate: 0.0005
+validation MSE: 1.0073982437650237e-09 at epoch 254
+learning_rate: 0.0005
+validation MSE: 9.589977761730426e-10 at epoch 255
+learning_rate: 0.0005
+validation MSE: 9.200123931059899e-10 at epoch 256
+learning_rate: 0.0005
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 8.899066636400654e-10 at epoch 257
+learning_rate: 0.0005
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 8.642998234951079e-10 at epoch 258
+learning_rate: 0.0005
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 8.432790793606484e-10 at epoch 259
+learning_rate: 0.0005
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 8.253685848026366e-10 at epoch 260
+learning_rate: 0.0005
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 8.107643848850709e-10 at epoch 261
+learning_rate: 0.0005
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 7.983069772233473e-10 at epoch 262
+learning_rate: 0.0005
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 7.892497718849866e-10 at epoch 263
+learning_rate: 0.0005
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 7.814641348031548e-10 at epoch 264
+learning_rate: 0.0005
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 7.758106574880572e-10 at epoch 265
+learning_rate: 0.0005
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 7.720777536232973e-10 at epoch 266
+learning_rate: 0.0005
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 7.699106932292604e-10 at epoch 267
+learning_rate: 0.0005
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 7.693262131962169e-10 at epoch 268
+learning_rate: 0.0005
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 7.703374393460513e-10 at epoch 269
+learning_rate: 0.0005
+validation MSE: 7.735731256257159e-10 at epoch 270
+learning_rate: 0.0005
+validation MSE: 7.780982987349937e-10 at epoch 271
+learning_rate: 0.0005
+validation MSE: 7.842667425530877e-10 at epoch 272
+learning_rate: 0.0005
+validation MSE: 7.913076561859625e-10 at epoch 273
+learning_rate: 0.0005
+validation MSE: 8.001854527907226e-10 at epoch 274
+learning_rate: 0.0005
+validation MSE: 8.09849026060698e-10 at epoch 275
+learning_rate: 0.0005
+validation MSE: 8.199794080554836e-10 at epoch 276
+learning_rate: 0.0005
+validation MSE: 8.321374124286065e-10 at epoch 277
+learning_rate: 0.0005
+validation MSE: 8.441125839017095e-10 at epoch 278
+learning_rate: 0.0005
+validation MSE: 8.594870051379471e-10 at epoch 279
+learning_rate: 0.0005
+validation MSE: 8.722143160530926e-10 at epoch 280
+learning_rate: 0.0005
+validation MSE: 8.883920273518603e-10 at epoch 281
+learning_rate: 0.0005
+validation MSE: 9.058465431603103e-10 at epoch 282
+learning_rate: 0.0005
+validation MSE: 9.264894989534518e-10 at epoch 283
+learning_rate: 0.0005
+validation MSE: 9.440769935791693e-10 at epoch 284
+learning_rate: 0.0005
+validation MSE: 9.63916659062515e-10 at epoch 285
+learning_rate: 0.0005
+validation MSE: 9.83562732620396e-10 at epoch 286
+learning_rate: 0.0005
+validation MSE: 1.0043663437432104e-09 at epoch 287
+learning_rate: 0.0005
+validation MSE: 1.0239985806830236e-09 at epoch 288
+learning_rate: 0.0005
+validation MSE: 1.0426118070231052e-09 at epoch 289
+learning_rate: 0.0005
+validation MSE: 1.0608231064181076e-09 at epoch 290
+learning_rate: 0.0005
+validation MSE: 1.0771885303438072e-09 at epoch 291
+learning_rate: 0.0005
+validation MSE: 1.0895398158294012e-09 at epoch 292
+learning_rate: 0.0005
+validation MSE: 1.1045952282027596e-09 at epoch 293
+learning_rate: 0.0005
+validation MSE: 1.1157460019307917e-09 at epoch 294
+learning_rate: 0.0005
+validation MSE: 1.1261817849838929e-09 at epoch 295
+learning_rate: 0.0005
+validation MSE: 1.1323360144855517e-09 at epoch 296
+learning_rate: 0.0005
+validation MSE: 1.1388342729870047e-09 at epoch 297
+learning_rate: 0.0005
+validation MSE: 1.1455538626081853e-09 at epoch 298
+learning_rate: 0.0005
+validation MSE: 1.1490072453253167e-09 at epoch 299
+learning_rate: 0.0005
+validation MSE: 1.1522788278167451e-09 at epoch 300
+learning_rate: 0.0005
+validation MSE: 1.1530651799310769e-09 at epoch 301
+learning_rate: 0.0005
+validation MSE: 1.1531953224252352e-09 at epoch 302
+learning_rate: 0.0005
+validation MSE: 1.1547297555168351e-09 at epoch 303
+learning_rate: 0.0005
+validation MSE: 1.153837357322395e-09 at epoch 304
+learning_rate: 0.0005
+validation MSE: 1.157689624627346e-09 at epoch 305
+learning_rate: 0.0005
+validation MSE: 1.1564997380317572e-09 at epoch 306
+learning_rate: 0.0005
+validation MSE: 1.1567971170178306e-09 at epoch 307
+learning_rate: 0.0005
+validation MSE: 1.1560626186240243e-09 at epoch 308
+learning_rate: 0.0005
+validation MSE: 1.154919534975996e-09 at epoch 309
+learning_rate: 0.0005
+validation MSE: 1.1594843416563832e-09 at epoch 310
+learning_rate: 0.0005
+validation MSE: 1.1603710470833584e-09 at epoch 311
+learning_rate: 0.0005
+validation MSE: 1.1602100858550975e-09 at epoch 312
+learning_rate: 0.0005
+validation MSE: 1.1610620005334682e-09 at epoch 313
+learning_rate: 0.0005
+validation MSE: 1.1630573509044179e-09 at epoch 314
+learning_rate: 0.0005
+validation MSE: 1.1670796002778789e-09 at epoch 315
+learning_rate: 0.0005
+validation MSE: 1.1686851301727565e-09 at epoch 316
+learning_rate: 0.0005
+validation MSE: 1.1682108538999604e-09 at epoch 317
+learning_rate: 0.0005
+validation MSE: 1.1689656756185766e-09 at epoch 318
+learning_rate: 0.0005
+validation MSE: 1.170933355658763e-09 at epoch 319
+learning_rate: 0.0005
+validation MSE: 1.1712438017102074e-09 at epoch 320
+learning_rate: 0.0005
+validation MSE: 1.1675241619197704e-09 at epoch 321
+learning_rate: 0.0005
+validation MSE: 1.164526118878527e-09 at epoch 322
+learning_rate: 0.0005
+validation MSE: 1.1626726414723267e-09 at epoch 323
+learning_rate: 0.0005
+validation MSE: 1.158744135720986e-09 at epoch 324
+learning_rate: 0.0005
+validation MSE: 1.1535998907553217e-09 at epoch 325
+learning_rate: 0.0005
+validation MSE: 1.1473503115171428e-09 at epoch 326
+learning_rate: 0.0005
+validation MSE: 1.1404099011635625e-09 at epoch 327
+learning_rate: 0.0005
+validation MSE: 1.1335754385092473e-09 at epoch 328
+learning_rate: 0.0005
+validation MSE: 1.1245166694934634e-09 at epoch 329
+learning_rate: 0.0005
+validation MSE: 1.1167274356228405e-09 at epoch 330
+learning_rate: 0.0005
+validation MSE: 1.1061891806536102e-09 at epoch 331
+learning_rate: 0.0005
+validation MSE: 1.0952687557329166e-09 at epoch 332
+learning_rate: 0.0005
+validation MSE: 1.086189741930093e-09 at epoch 333
+learning_rate: 0.0005
+validation MSE: 2.147891610055255e-09 at epoch 334
+learning_rate: 0.00025
+validation MSE: 2.001358007555106e-09 at epoch 335
+learning_rate: 0.00025
+validation MSE: 2.6071833240952546e-09 at epoch 336
+learning_rate: 0.00025
+validation MSE: 2.820495288512517e-09 at epoch 337
+learning_rate: 0.00025
+validation MSE: 3.0143929374392265e-09 at epoch 338
+learning_rate: 0.00025
+validation MSE: 3.2155246461042055e-09 at epoch 339
+learning_rate: 0.00025
+validation MSE: 3.41954040263237e-09 at epoch 340
+learning_rate: 0.00025
+validation MSE: 3.6195341658307127e-09 at epoch 341
+learning_rate: 0.00025
+validation MSE: 3.821800115674771e-09 at epoch 342
+learning_rate: 0.00025
+validation MSE: 4.0231148073918705e-09 at epoch 343
+learning_rate: 0.00025
+validation MSE: 4.229171857062966e-09 at epoch 344
+learning_rate: 0.00025
+validation MSE: 4.442634757474939e-09 at epoch 345
+learning_rate: 0.00025
+validation MSE: 4.659904774844655e-09 at epoch 346
+learning_rate: 0.00025
+validation MSE: 4.873550140534357e-09 at epoch 347
+learning_rate: 0.00025
+validation MSE: 5.107760456610069e-09 at epoch 348
+learning_rate: 0.00025
+validation MSE: 5.346488503097276e-09 at epoch 349
+learning_rate: 0.00025
+validation MSE: 5.5889077607420495e-09 at epoch 350
+learning_rate: 0.00025
+validation MSE: 5.847763749106203e-09 at epoch 351
+learning_rate: 0.00025
+validation MSE: 6.115018009402239e-09 at epoch 352
+learning_rate: 0.00025
+validation MSE: 6.3964111315192765e-09 at epoch 353
+learning_rate: 0.00025
+validation MSE: 6.686581084420368e-09 at epoch 354
+learning_rate: 0.00025
+validation MSE: 6.995417879212044e-09 at epoch 355
+learning_rate: 0.00025
+validation MSE: 7.319532062860302e-09 at epoch 356
+learning_rate: 0.00025
+validation MSE: 7.647854851267486e-09 at epoch 357
+learning_rate: 0.00025
+validation MSE: 7.99924330684355e-09 at epoch 358
+learning_rate: 0.00025
+validation MSE: 8.344577453670152e-09 at epoch 359
+learning_rate: 0.00025
+validation MSE: 8.729987108862671e-09 at epoch 360
+learning_rate: 0.00025
+validation MSE: 9.116032769038095e-09 at epoch 361
+learning_rate: 0.00025
+validation MSE: 9.511092373963745e-09 at epoch 362
+learning_rate: 0.00025
+validation MSE: 9.916279835868597e-09 at epoch 363
+learning_rate: 0.00025
+validation MSE: 1.0332940042823888e-08 at epoch 364
+learning_rate: 0.00025
+validation MSE: 1.0770179581138711e-08 at epoch 365
+learning_rate: 0.00025
+validation MSE: 1.119218063241611e-08 at epoch 366
+learning_rate: 0.00025
+validation MSE: 1.162836812438186e-08 at epoch 367
+learning_rate: 0.00025
+validation MSE: 1.2069380300429703e-08 at epoch 368
+learning_rate: 0.00025
+validation MSE: 1.2506564534307426e-08 at epoch 369
+learning_rate: 0.00025
+validation MSE: 1.2956840284672699e-08 at epoch 370
+learning_rate: 0.00025
+validation MSE: 1.3384676743336303e-08 at epoch 371
+learning_rate: 0.00025
+validation MSE: 1.3816602727550573e-08 at epoch 372
+learning_rate: 0.00025
+validation MSE: 1.4252342799142868e-08 at epoch 373
+learning_rate: 0.00025
+validation MSE: 1.4667288489423028e-08 at epoch 374
+learning_rate: 0.00025
+validation MSE: 1.507627076384951e-08 at epoch 375
+learning_rate: 0.00025
+validation MSE: 1.546884153459311e-08 at epoch 376
+learning_rate: 0.00025
+validation MSE: 1.5867464990045002e-08 at epoch 377
+learning_rate: 0.00025
+validation MSE: 1.6218536907931664e-08 at epoch 378
+learning_rate: 0.00025
+validation MSE: 1.6574963129307397e-08 at epoch 379
+learning_rate: 0.00025
+validation MSE: 1.689889052646243e-08 at epoch 380
+learning_rate: 0.00025
+validation MSE: 1.7201429962183375e-08 at epoch 381
+learning_rate: 0.00025
+validation MSE: 1.748023789561764e-08 at epoch 382
+learning_rate: 0.00025
+validation MSE: 1.771684283467383e-08 at epoch 383
+learning_rate: 0.00025
+validation MSE: 1.793090226854936e-08 at epoch 384
+learning_rate: 0.00025
+validation MSE: 1.81097938644686e-08 at epoch 385
+learning_rate: 0.00025
+validation MSE: 1.825045649671586e-08 at epoch 386
+learning_rate: 0.00025
+validation MSE: 1.8339875063797695e-08 at epoch 387
+learning_rate: 0.00025
+validation MSE: 1.8379608898431496e-08 at epoch 388
+learning_rate: 0.00025
+validation MSE: 1.835896363614384e-08 at epoch 389
+learning_rate: 0.00025
+validation MSE: 1.8281099815333403e-08 at epoch 390
+learning_rate: 0.00025
+validation MSE: 1.813651584964753e-08 at epoch 391
+learning_rate: 0.00025
+validation MSE: 1.7916046347057623e-08 at epoch 392
+learning_rate: 0.00025
+validation MSE: 1.7621490040960502e-08 at epoch 393
+learning_rate: 0.00025
+validation MSE: 1.724475559034644e-08 at epoch 394
+learning_rate: 0.00025
+validation MSE: 1.680767259298356e-08 at epoch 395
+learning_rate: 0.00025
+validation MSE: 1.6309875760275656e-08 at epoch 396
+learning_rate: 0.00025
+validation MSE: 1.5780823117946983e-08 at epoch 397
+learning_rate: 0.00025
+validation MSE: 1.525033941248098e-08 at epoch 398
+learning_rate: 0.00025
+validation MSE: 8.342807087337036e-10 at epoch 399
+learning_rate: 0.000125
+validation MSE: 8.55150179912111e-10 at epoch 400
+learning_rate: 0.000125
+validation MSE: 1.4057997468421034e-09 at epoch 401
+learning_rate: 0.000125
+validation MSE: 1.473235049049555e-09 at epoch 402
+learning_rate: 0.000125
+validation MSE: 1.492467338406274e-09 at epoch 403
+learning_rate: 0.000125
+validation MSE: 1.5067715674522625e-09 at epoch 404
+learning_rate: 0.000125
+validation MSE: 1.5208011150823064e-09 at epoch 405
+learning_rate: 0.000125
+validation MSE: 1.533534691957734e-09 at epoch 406
+learning_rate: 0.000125
+validation MSE: 1.552352034717202e-09 at epoch 407
+learning_rate: 0.000125
+validation MSE: 1.5680515244333687e-09 at epoch 408
+learning_rate: 0.000125
+validation MSE: 1.5847813433988233e-09 at epoch 409
+learning_rate: 0.000125
+validation MSE: 1.6017264930870925e-09 at epoch 410
+learning_rate: 0.000125
+validation MSE: 1.618620854275502e-09 at epoch 411
+learning_rate: 0.000125
+validation MSE: 1.6369354965800868e-09 at epoch 412
+learning_rate: 0.000125
+validation MSE: 1.6561046397150724e-09 at epoch 413
+learning_rate: 0.000125
+validation MSE: 1.6738556415713115e-09 at epoch 414
+learning_rate: 0.000125
+validation MSE: 1.6919645192451231e-09 at epoch 415
+learning_rate: 0.000125
+validation MSE: 1.7107214955439364e-09 at epoch 416
+learning_rate: 0.000125
+validation MSE: 1.7321572053460144e-09 at epoch 417
+learning_rate: 0.000125
+validation MSE: 1.7494454098690085e-09 at epoch 418
+learning_rate: 0.000125
+validation MSE: 1.7663745615896648e-09 at epoch 419
+learning_rate: 0.000125
+validation MSE: 1.7862865417217117e-09 at epoch 420
+learning_rate: 0.000125
+validation MSE: 1.806433925483038e-09 at epoch 421
+learning_rate: 0.000125
+validation MSE: 1.8266820450461485e-09 at epoch 422
+learning_rate: 0.000125
+validation MSE: 1.8453769147518937e-09 at epoch 423
+learning_rate: 0.000125
+validation MSE: 1.865736127088193e-09 at epoch 424
+learning_rate: 0.000125
+validation MSE: 1.8847497067125777e-09 at epoch 425
+learning_rate: 0.000125
+validation MSE: 1.9058297259077692e-09 at epoch 426
+learning_rate: 0.000125
+validation MSE: 1.925677983070821e-09 at epoch 427
+learning_rate: 0.000125
+validation MSE: 1.944240652660827e-09 at epoch 428
+learning_rate: 0.000125
+validation MSE: 1.9657636664205836e-09 at epoch 429
+learning_rate: 0.000125
+validation MSE: 1.985026995536039e-09 at epoch 430
+learning_rate: 0.000125
+validation MSE: 2.0065864792567247e-09 at epoch 431
+learning_rate: 0.000125
+validation MSE: 2.0235888557493334e-09 at epoch 432
+learning_rate: 0.000125
+validation MSE: 2.045509269019073e-09 at epoch 433
+learning_rate: 0.000125
+validation MSE: 2.0675044598894057e-09 at epoch 434
+learning_rate: 0.000125
+validation MSE: 2.0852749440579684e-09 at epoch 435
+learning_rate: 0.000125
+validation MSE: 2.1040900029477337e-09 at epoch 436
+learning_rate: 0.000125
+validation MSE: 2.123936995346694e-09 at epoch 437
+learning_rate: 0.000125
+validation MSE: 2.1439906529181327e-09 at epoch 438
+learning_rate: 0.000125
+validation MSE: 2.164159240332002e-09 at epoch 439
+learning_rate: 0.000125
+validation MSE: 2.180253461808439e-09 at epoch 440
+learning_rate: 0.000125
+validation MSE: 2.1995824592558395e-09 at epoch 441
+learning_rate: 0.000125
+validation MSE: 2.2147478330381443e-09 at epoch 442
+learning_rate: 0.000125
+validation MSE: 2.2308287056281206e-09 at epoch 443
+learning_rate: 0.000125
+validation MSE: 2.2462459563756395e-09 at epoch 444
+learning_rate: 0.000125
+validation MSE: 2.2619438996920743e-09 at epoch 445
+learning_rate: 0.000125
+validation MSE: 2.2738701085371145e-09 at epoch 446
+learning_rate: 0.000125
+validation MSE: 2.2863658336054976e-09 at epoch 447
+learning_rate: 0.000125
+validation MSE: 2.295348869895079e-09 at epoch 448
+learning_rate: 0.000125
+validation MSE: 2.3049792057705296e-09 at epoch 449
+learning_rate: 0.000125
+validation MSE: 2.3125359719212457e-09 at epoch 450
+learning_rate: 0.000125
+validation MSE: 2.317827690976272e-09 at epoch 451
+learning_rate: 0.000125
+validation MSE: 2.3186834835227264e-09 at epoch 452
+learning_rate: 0.000125
+validation MSE: 2.319894034113453e-09 at epoch 453
+learning_rate: 0.000125
+validation MSE: 2.3151928627137472e-09 at epoch 454
+learning_rate: 0.000125
+validation MSE: 2.3133124502831804e-09 at epoch 455
+learning_rate: 0.000125
+validation MSE: 2.302629818320293e-09 at epoch 456
+learning_rate: 0.000125
+validation MSE: 2.2918947281958597e-09 at epoch 457
+learning_rate: 0.000125
+validation MSE: 2.2766801215858915e-09 at epoch 458
+learning_rate: 0.000125
+validation MSE: 2.2532446401165725e-09 at epoch 459
+learning_rate: 0.000125
+validation MSE: 2.231124631000919e-09 at epoch 460
+learning_rate: 0.000125
+validation MSE: 2.2023538088496e-09 at epoch 461
+learning_rate: 0.000125
+validation MSE: 2.1714516863653285e-09 at epoch 462
+learning_rate: 0.000125
+validation MSE: 2.1353024505705187e-09 at epoch 463
+learning_rate: 0.000125
+validation MSE: 8.798360731204409e-10 at epoch 464
+learning_rate: 6.25e-05
+validation MSE: 7.991791262417816e-10 at epoch 465
+learning_rate: 6.25e-05
+validation MSE: 5.850581086628846e-10 at epoch 466
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 5.422044778945872e-10 at epoch 467
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 5.291224123968894e-10 at epoch 468
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 5.227381763190846e-10 at epoch 469
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 5.17535173217103e-10 at epoch 470
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 5.132391847263986e-10 at epoch 471
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 5.092511093281439e-10 at epoch 472
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 5.060277660425893e-10 at epoch 473
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 5.018490141824593e-10 at epoch 474
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.982296297565372e-10 at epoch 475
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.950289589436422e-10 at epoch 476
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.923290432690428e-10 at epoch 477
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.892273853723013e-10 at epoch 478
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.868914360405372e-10 at epoch 479
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.8457704373492e-10 at epoch 480
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.82428475493137e-10 at epoch 481
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.801527254704097e-10 at epoch 482
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.785298504270768e-10 at epoch 483
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.764304914763532e-10 at epoch 484
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.754084284741926e-10 at epoch 485
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.74121934177799e-10 at epoch 486
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.732632160453152e-10 at epoch 487
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.722013586102486e-10 at epoch 488
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.721673687398155e-10 at epoch 489
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.708662606383287e-10 at epoch 490
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.707436321162925e-10 at epoch 491
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.704636400202165e-10 at epoch 492
+learning_rate: 6.25e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.708473128062849e-10 at epoch 493
+learning_rate: 6.25e-05
+validation MSE: 4.708152085841336e-10 at epoch 494
+learning_rate: 6.25e-05
+validation MSE: 4.711062731922087e-10 at epoch 495
+learning_rate: 6.25e-05
+validation MSE: 4.718017351770421e-10 at epoch 496
+learning_rate: 6.25e-05
+validation MSE: 4.72353103519265e-10 at epoch 497
+learning_rate: 6.25e-05
+validation MSE: 4.73443159892814e-10 at epoch 498
+learning_rate: 6.25e-05
+validation MSE: 4.742102862793556e-10 at epoch 499
+learning_rate: 6.25e-05
+validation MSE: 4.753222990131683e-10 at epoch 500
+learning_rate: 6.25e-05
+validation MSE: 4.774483143352611e-10 at epoch 501
+learning_rate: 6.25e-05
+validation MSE: 4.782404335513111e-10 at epoch 502
+learning_rate: 6.25e-05
+validation MSE: 4.803904110685372e-10 at epoch 503
+learning_rate: 6.25e-05
+validation MSE: 4.821484330939437e-10 at epoch 504
+learning_rate: 6.25e-05
+validation MSE: 4.844227965124024e-10 at epoch 505
+learning_rate: 6.25e-05
+validation MSE: 4.869694824010524e-10 at epoch 506
+learning_rate: 6.25e-05
+validation MSE: 4.893614410008146e-10 at epoch 507
+learning_rate: 6.25e-05
+validation MSE: 4.920333173005831e-10 at epoch 508
+learning_rate: 6.25e-05
+validation MSE: 4.949528109037764e-10 at epoch 509
+learning_rate: 6.25e-05
+validation MSE: 4.978130712495963e-10 at epoch 510
+learning_rate: 6.25e-05
+validation MSE: 5.008205386687228e-10 at epoch 511
+learning_rate: 6.25e-05
+validation MSE: 5.041387605259926e-10 at epoch 512
+learning_rate: 6.25e-05
+validation MSE: 5.077019099303261e-10 at epoch 513
+learning_rate: 6.25e-05
+validation MSE: 5.1146883505281e-10 at epoch 514
+learning_rate: 6.25e-05
+validation MSE: 5.152244387285442e-10 at epoch 515
+learning_rate: 6.25e-05
+validation MSE: 5.192769167055898e-10 at epoch 516
+learning_rate: 6.25e-05
+validation MSE: 5.232711937286806e-10 at epoch 517
+learning_rate: 6.25e-05
+validation MSE: 5.273920154371675e-10 at epoch 518
+learning_rate: 6.25e-05
+validation MSE: 5.324779249208781e-10 at epoch 519
+learning_rate: 6.25e-05
+validation MSE: 5.364142170847879e-10 at epoch 520
+learning_rate: 6.25e-05
+validation MSE: 5.415516887936637e-10 at epoch 521
+learning_rate: 6.25e-05
+validation MSE: 5.468949170353609e-10 at epoch 522
+learning_rate: 6.25e-05
+validation MSE: 5.5218953090729e-10 at epoch 523
+learning_rate: 6.25e-05
+validation MSE: 5.570838582875649e-10 at epoch 524
+learning_rate: 6.25e-05
+validation MSE: 5.625624460825731e-10 at epoch 525
+learning_rate: 6.25e-05
+validation MSE: 5.67986414830113e-10 at epoch 526
+learning_rate: 6.25e-05
+validation MSE: 5.744263549418546e-10 at epoch 527
+learning_rate: 6.25e-05
+validation MSE: 5.797702909198217e-10 at epoch 528
+learning_rate: 6.25e-05
+validation MSE: 5.852138664470605e-10 at epoch 529
+learning_rate: 6.25e-05
+validation MSE: 5.912807880347894e-10 at epoch 530
+learning_rate: 6.25e-05
+validation MSE: 5.980910274586552e-10 at epoch 531
+learning_rate: 6.25e-05
+validation MSE: 6.042918982270104e-10 at epoch 532
+learning_rate: 6.25e-05
+validation MSE: 6.105020660623176e-10 at epoch 533
+learning_rate: 6.25e-05
+validation MSE: 6.162192282674915e-10 at epoch 534
+learning_rate: 6.25e-05
+validation MSE: 6.230967690278482e-10 at epoch 535
+learning_rate: 6.25e-05
+validation MSE: 6.305923966925554e-10 at epoch 536
+learning_rate: 6.25e-05
+validation MSE: 6.368629949994273e-10 at epoch 537
+learning_rate: 6.25e-05
+validation MSE: 6.434807627351141e-10 at epoch 538
+learning_rate: 6.25e-05
+validation MSE: 6.499349489987506e-10 at epoch 539
+learning_rate: 6.25e-05
+validation MSE: 6.573068219079425e-10 at epoch 540
+learning_rate: 6.25e-05
+validation MSE: 6.648490483405528e-10 at epoch 541
+learning_rate: 6.25e-05
+validation MSE: 6.71058626632598e-10 at epoch 542
+learning_rate: 6.25e-05
+validation MSE: 6.781013496941005e-10 at epoch 543
+learning_rate: 6.25e-05
+validation MSE: 6.852951257379007e-10 at epoch 544
+learning_rate: 6.25e-05
+validation MSE: 6.921960608631487e-10 at epoch 545
+learning_rate: 6.25e-05
+validation MSE: 6.990774055900507e-10 at epoch 546
+learning_rate: 6.25e-05
+validation MSE: 7.064716320609565e-10 at epoch 547
+learning_rate: 6.25e-05
+validation MSE: 7.127739575561388e-10 at epoch 548
+learning_rate: 6.25e-05
+validation MSE: 7.196429840927721e-10 at epoch 549
+learning_rate: 6.25e-05
+validation MSE: 7.264292664677221e-10 at epoch 550
+learning_rate: 6.25e-05
+validation MSE: 7.336242216289543e-10 at epoch 551
+learning_rate: 6.25e-05
+validation MSE: 7.40377022249045e-10 at epoch 552
+learning_rate: 6.25e-05
+validation MSE: 7.459505093551798e-10 at epoch 553
+learning_rate: 6.25e-05
+validation MSE: 7.52893628535489e-10 at epoch 554
+learning_rate: 6.25e-05
+validation MSE: 7.585821600298936e-10 at epoch 555
+learning_rate: 6.25e-05
+validation MSE: 7.651046946457493e-10 at epoch 556
+learning_rate: 6.25e-05
+validation MSE: 7.711193766548167e-10 at epoch 557
+learning_rate: 6.25e-05
+validation MSE: 4.562852745237352e-10 at epoch 558
+learning_rate: 3.125e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.271576830572926e-10 at epoch 559
+learning_rate: 3.125e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.1420814509376554e-10 at epoch 560
+learning_rate: 3.125e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.119824900369519e-10 at epoch 561
+learning_rate: 3.125e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.1155479639797163e-10 at epoch 562
+learning_rate: 3.125e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.1132869539912255e-10 at epoch 563
+learning_rate: 3.125e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.1112522173148735e-10 at epoch 564
+learning_rate: 3.125e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.108216215093164e-10 at epoch 565
+learning_rate: 3.125e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.105949159149054e-10 at epoch 566
+learning_rate: 3.125e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.1037340977741975e-10 at epoch 567
+learning_rate: 3.125e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.101951262727814e-10 at epoch 568
+learning_rate: 3.125e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.098221831493552e-10 at epoch 569
+learning_rate: 3.125e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.097942496815174e-10 at epoch 570
+learning_rate: 3.125e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.0955541151611304e-10 at epoch 571
+learning_rate: 3.125e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.0942354890260964e-10 at epoch 572
+learning_rate: 3.125e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.0927818912049216e-10 at epoch 573
+learning_rate: 3.125e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.09250423762427e-10 at epoch 574
+learning_rate: 3.125e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.091474792751691e-10 at epoch 575
+learning_rate: 3.125e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.091822040811001e-10 at epoch 576
+learning_rate: 3.125e-05
+validation MSE: 4.0905924113219515e-10 at epoch 577
+learning_rate: 3.125e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.09122258219413e-10 at epoch 578
+learning_rate: 3.125e-05
+validation MSE: 4.091691047939168e-10 at epoch 579
+learning_rate: 3.125e-05
+validation MSE: 4.088981353771285e-10 at epoch 580
+learning_rate: 3.125e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.0894570721285927e-10 at epoch 581
+learning_rate: 3.125e-05
+validation MSE: 4.0895764874018576e-10 at epoch 582
+learning_rate: 3.125e-05
+validation MSE: 4.0887746801299563e-10 at epoch 583
+learning_rate: 3.125e-05
+model saved in /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+validation MSE: 4.0906016137788626e-10 at epoch 584
+learning_rate: 3.125e-05
+validation MSE: 4.0895349938980995e-10 at epoch 585
+learning_rate: 3.125e-05
+validation MSE: 4.090268790428196e-10 at epoch 586
+learning_rate: 3.125e-05
+validation MSE: 4.0912089283363283e-10 at epoch 587
+learning_rate: 3.125e-05
+validation MSE: 4.091942996858703e-10 at epoch 588
+learning_rate: 3.125e-05
+validation MSE: 4.092710943873764e-10 at epoch 589
+learning_rate: 3.125e-05
+validation MSE: 4.0932946600103135e-10 at epoch 590
+learning_rate: 3.125e-05
+validation MSE: 4.0936928265694285e-10 at epoch 591
+learning_rate: 3.125e-05
+validation MSE: 4.0936404008305977e-10 at epoch 592
+learning_rate: 3.125e-05
+validation MSE: 4.0945424636833717e-10 at epoch 593
+learning_rate: 3.125e-05
+validation MSE: 4.0972682506761743e-10 at epoch 594
+learning_rate: 3.125e-05
+validation MSE: 4.098605362704549e-10 at epoch 595
+learning_rate: 3.125e-05
+validation MSE: 4.09949881823806e-10 at epoch 596
+learning_rate: 3.125e-05
+validation MSE: 4.0999326354122756e-10 at epoch 597
+learning_rate: 3.125e-05
+validation MSE: 4.1017170416776866e-10 at epoch 598
+learning_rate: 3.125e-05
+validation MSE: 4.103890392882209e-10 at epoch 599
+learning_rate: 3.125e-05
+validation MSE: 4.1044734336742963e-10 at epoch 600
+learning_rate: 3.125e-05
+validation MSE: 4.106051874714629e-10 at epoch 601
+learning_rate: 3.125e-05
+validation MSE: 4.108627707110313e-10 at epoch 602
+learning_rate: 3.125e-05
+validation MSE: 4.1092941486163525e-10 at epoch 603
+learning_rate: 3.125e-05
+validation MSE: 4.111445023522646e-10 at epoch 604
+learning_rate: 3.125e-05
+validation MSE: 4.114368143231071e-10 at epoch 605
+learning_rate: 3.125e-05
+validation MSE: 4.11386078475389e-10 at epoch 606
+learning_rate: 3.125e-05
+validation MSE: 4.1162137602768014e-10 at epoch 607
+learning_rate: 3.125e-05
+validation MSE: 4.1195492361960216e-10 at epoch 608
+learning_rate: 3.125e-05
+validation MSE: 4.121321225241248e-10 at epoch 609
+learning_rate: 3.125e-05
+validation MSE: 4.122335104428486e-10 at epoch 610
+learning_rate: 3.125e-05
+validation MSE: 4.1248605249099824e-10 at epoch 611
+learning_rate: 3.125e-05
+validation MSE: 4.1282426351415517e-10 at epoch 612
+learning_rate: 3.125e-05
+validation MSE: 4.129902893468065e-10 at epoch 613
+learning_rate: 3.125e-05
+validation MSE: 4.133408694660596e-10 at epoch 614
+learning_rate: 3.125e-05
+validation MSE: 4.1346308471437467e-10 at epoch 615
+learning_rate: 3.125e-05
+validation MSE: 4.13582061879169e-10 at epoch 616
+learning_rate: 3.125e-05
+validation MSE: 4.137716462765951e-10 at epoch 617
+learning_rate: 3.125e-05
+validation MSE: 4.140603793699562e-10 at epoch 618
+learning_rate: 3.125e-05
+validation MSE: 4.1423825997057906e-10 at epoch 619
+learning_rate: 3.125e-05
+validation MSE: 4.1456493700665696e-10 at epoch 620
+learning_rate: 3.125e-05
+validation MSE: 4.1462804564400283e-10 at epoch 621
+learning_rate: 3.125e-05
+validation MSE: 4.150427418229088e-10 at epoch 622
+learning_rate: 3.125e-05
+validation MSE: 4.152844630446409e-10 at epoch 623
+learning_rate: 3.125e-05
+validation MSE: 4.154316658835223e-10 at epoch 624
+learning_rate: 3.125e-05
+validation MSE: 4.156840531278852e-10 at epoch 625
+learning_rate: 3.125e-05
+validation MSE: 4.1609634061426833e-10 at epoch 626
+learning_rate: 3.125e-05
+validation MSE: 4.1614212510528983e-10 at epoch 627
+learning_rate: 3.125e-05
+validation MSE: 4.165111832053811e-10 at epoch 628
+learning_rate: 3.125e-05
+validation MSE: 4.167012276020199e-10 at epoch 629
+learning_rate: 3.125e-05
+validation MSE: 4.1710079466637227e-10 at epoch 630
+learning_rate: 3.125e-05
+validation MSE: 4.171758146337202e-10 at epoch 631
+learning_rate: 3.125e-05
+validation MSE: 4.1748037090874743e-10 at epoch 632
+learning_rate: 3.125e-05
+validation MSE: 4.1784144508505924e-10 at epoch 633
+learning_rate: 3.125e-05
+validation MSE: 4.1815958111544677e-10 at epoch 634
+learning_rate: 3.125e-05
+validation MSE: 4.1821751865415305e-10 at epoch 635
+learning_rate: 3.125e-05
+validation MSE: 4.1858423888016535e-10 at epoch 636
+learning_rate: 3.125e-05
+validation MSE: 4.1886353582734126e-10 at epoch 637
+learning_rate: 3.125e-05
+validation MSE: 4.1903531879381197e-10 at epoch 638
+learning_rate: 3.125e-05
+validation MSE: 4.1928022475148847e-10 at epoch 639
+learning_rate: 3.125e-05
+validation MSE: 4.1953521710234324e-10 at epoch 640
+learning_rate: 3.125e-05
+validation MSE: 4.1971057526049093e-10 at epoch 641
+learning_rate: 3.125e-05
+validation MSE: 4.2018399502033174e-10 at epoch 642
+learning_rate: 3.125e-05
+validation MSE: 4.203271784933287e-10 at epoch 643
+learning_rate: 3.125e-05
+validation MSE: 4.2060876111061117e-10 at epoch 644
+learning_rate: 3.125e-05
+validation MSE: 4.2062318044122563e-10 at epoch 645
+learning_rate: 3.125e-05
+validation MSE: 4.21143522207065e-10 at epoch 646
+learning_rate: 3.125e-05
+validation MSE: 4.212772798881283e-10 at epoch 647
+learning_rate: 3.125e-05
+validation MSE: 4.2140144610923425e-10 at epoch 648
+learning_rate: 3.125e-05
+validation MSE: 6.988393579485658e-10 at epoch 649
+learning_rate: 1.5625e-05
+validation MSE: 6.577897335955666e-10 at epoch 650
+learning_rate: 1.5625e-05
+validation MSE: 6.495932451929406e-10 at epoch 651
+learning_rate: 1.5625e-05
+validation MSE: 6.462284994429146e-10 at epoch 652
+learning_rate: 1.5625e-05
+validation MSE: 6.446157579509665e-10 at epoch 653
+learning_rate: 1.5625e-05
+validation MSE: 6.432310316653385e-10 at epoch 654
+learning_rate: 1.5625e-05
+validation MSE: 6.426350295757865e-10 at epoch 655
+learning_rate: 1.5625e-05
+validation MSE: 6.419008216573694e-10 at epoch 656
+learning_rate: 1.5625e-05
+validation MSE: 6.412493259724513e-10 at epoch 657
+learning_rate: 1.5625e-05
+validation MSE: 6.406326784326896e-10 at epoch 658
+learning_rate: 1.5625e-05
+validation MSE: 6.40259866900982e-10 at epoch 659
+learning_rate: 1.5625e-05
+validation MSE: 6.393112611932631e-10 at epoch 660
+learning_rate: 1.5625e-05
+validation MSE: 6.387549947028329e-10 at epoch 661
+learning_rate: 1.5625e-05
+validation MSE: 6.382406420987709e-10 at epoch 662
+learning_rate: 1.5625e-05
+validation MSE: 6.374747297713968e-10 at epoch 663
+learning_rate: 1.5625e-05
+validation MSE: 6.367255821825931e-10 at epoch 664
+learning_rate: 1.5625e-05
+validation MSE: 6.366185260220716e-10 at epoch 665
+learning_rate: 1.5625e-05
+validation MSE: 6.357589070388006e-10 at epoch 666
+learning_rate: 1.5625e-05
+validation MSE: 6.351432114720111e-10 at epoch 667
+learning_rate: 1.5625e-05
+validation MSE: 6.347365305964483e-10 at epoch 668
+learning_rate: 1.5625e-05
+validation MSE: 6.342880860484343e-10 at epoch 669
+learning_rate: 1.5625e-05
+validation MSE: 6.33754313195741e-10 at epoch 670
+learning_rate: 1.5625e-05
+validation MSE: 6.330622128963736e-10 at epoch 671
+learning_rate: 1.5625e-05
+validation MSE: 6.32471361598765e-10 at epoch 672
+learning_rate: 1.5625e-05
+validation MSE: 6.321675512934676e-10 at epoch 673
+learning_rate: 1.5625e-05
+validation MSE: 6.317261077030501e-10 at epoch 674
+learning_rate: 1.5625e-05
+validation MSE: 6.312058259145989e-10 at epoch 675
+learning_rate: 1.5625e-05
+validation MSE: 6.304625005677661e-10 at epoch 676
+learning_rate: 1.5625e-05
+validation MSE: 6.303633094348541e-10 at epoch 677
+learning_rate: 1.5625e-05
+validation MSE: 6.295332488414689e-10 at epoch 678
+learning_rate: 1.5625e-05
+validation MSE: 6.288500149958247e-10 at epoch 679
+learning_rate: 1.5625e-05
+validation MSE: 6.28662447266597e-10 at epoch 680
+learning_rate: 1.5625e-05
+validation MSE: 6.282800827479305e-10 at epoch 681
+learning_rate: 1.5625e-05
+validation MSE: 6.279611343415165e-10 at epoch 682
+learning_rate: 1.5625e-05
+validation MSE: 6.272495370175159e-10 at epoch 683
+learning_rate: 1.5625e-05
+validation MSE: 6.265905615449598e-10 at epoch 684
+learning_rate: 1.5625e-05
+validation MSE: 6.266612239023901e-10 at epoch 685
+learning_rate: 1.5625e-05
+validation MSE: 6.262766028368811e-10 at epoch 686
+learning_rate: 1.5625e-05
+validation MSE: 6.256200072967552e-10 at epoch 687
+learning_rate: 1.5625e-05
+validation MSE: 6.253051681991267e-10 at epoch 688
+learning_rate: 1.5625e-05
+validation MSE: 6.247590041200563e-10 at epoch 689
+learning_rate: 1.5625e-05
+validation MSE: 6.239762605396366e-10 at epoch 690
+learning_rate: 1.5625e-05
+validation MSE: 6.238029716631936e-10 at epoch 691
+learning_rate: 1.5625e-05
+validation MSE: 6.22991198223337e-10 at epoch 692
+learning_rate: 1.5625e-05
+validation MSE: 6.228242154878535e-10 at epoch 693
+learning_rate: 1.5625e-05
+validation MSE: 6.221390432026989e-10 at epoch 694
+learning_rate: 1.5625e-05
+validation MSE: 6.214843890692719e-10 at epoch 695
+learning_rate: 1.5625e-05
+validation MSE: 6.214256581476363e-10 at epoch 696
+learning_rate: 1.5625e-05
+validation MSE: 6.208651423960306e-10 at epoch 697
+learning_rate: 1.5625e-05
+validation MSE: 6.204639212709122e-10 at epoch 698
+learning_rate: 1.5625e-05
+validation MSE: 6.196474149181571e-10 at epoch 699
+learning_rate: 1.5625e-05
+validation MSE: 6.192399690024966e-10 at epoch 700
+learning_rate: 1.5625e-05
+validation MSE: 6.188826379112769e-10 at epoch 701
+learning_rate: 1.5625e-05
+validation MSE: 6.185488114036373e-10 at epoch 702
+learning_rate: 1.5625e-05
+validation MSE: 6.175450253862033e-10 at epoch 703
+learning_rate: 1.5625e-05
+validation MSE: 6.175914221998401e-10 at epoch 704
+learning_rate: 1.5625e-05
+validation MSE: 6.175792108592648e-10 at epoch 705
+learning_rate: 1.5625e-05
+validation MSE: 6.164464289187561e-10 at epoch 706
+learning_rate: 1.5625e-05
+validation MSE: 6.160029317866415e-10 at epoch 707
+learning_rate: 1.5625e-05
+validation MSE: 6.155929024388739e-10 at epoch 708
+learning_rate: 1.5625e-05
+validation MSE: 6.156231131156948e-10 at epoch 709
+learning_rate: 1.5625e-05
+validation MSE: 6.148340475693103e-10 at epoch 710
+learning_rate: 1.5625e-05
+validation MSE: 6.139828947165829e-10 at epoch 711
+learning_rate: 1.5625e-05
+validation MSE: 6.137972960878132e-10 at epoch 712
+learning_rate: 1.5625e-05
+validation MSE: 6.132434709753415e-10 at epoch 713
+learning_rate: 1.5625e-05
+validation MSE: 2.6566768328669507e-10 at epoch 714
+learning_rate: 7.8125e-06
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3NO2_new_model/CH3NO2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/CH3NO2_ANI_1ccx_TLonCCSDT_F12_cv7/cv7.pt
+************************** Prediction *********************************
+accuracy:
+   accuracy  ANI_1ccx_gelu_sp
+0     EMAE          0.000019
+1    ERMSE          0.000014
+2     FMAE          0.000179
+3    FRMSE          0.000107
