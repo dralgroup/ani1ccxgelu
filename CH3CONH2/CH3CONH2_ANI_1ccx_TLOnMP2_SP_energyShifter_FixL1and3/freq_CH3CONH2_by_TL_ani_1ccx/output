@@ -1,0 +1,23 @@
+ml:
+ <module 'mlatom' from '/mlatom/home/fatemealavi/mlatom_devBranch/mlatom/__init__.py'>
+************************ ANI-1ccx_GELU **************************
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3CONH2_new_model/CH3CONH2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv0.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3CONH2_new_model/CH3CONH2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv1.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3CONH2_new_model/CH3CONH2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv2.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3CONH2_new_model/CH3CONH2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv3.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3CONH2_new_model/CH3CONH2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv4.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3CONH2_new_model/CH3CONH2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv5.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3CONH2_new_model/CH3CONH2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv6.pt
+model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_CH3CONH2_new_model/CH3CONH2_ANI_1ccx_TLOnMP2_SP_energyShifter_FixL1and3/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv7.pt
+Optimized Geometry for Ani_1ccx_gelu:
+ [[ 7.40832955e-02  1.45990158e-01 -8.46681866e-03]
+ [ 3.74964700e-01  1.33063116e+00  2.15190231e-03]
+ [-1.35940466e+00 -3.28596183e-01 -3.83516246e-04]
+ [-1.94559233e+00  3.30267285e-01 -6.34154559e-01]
+ [-1.74279087e+00 -2.48247117e-01  1.01617031e+00]
+ [-1.46787313e+00 -1.35741924e+00 -3.36881432e-01]
+ [ 1.01650144e+00 -8.41140940e-01 -1.45863763e-02]
+ [ 1.98330761e+00 -5.74813198e-01  5.69923797e-02]
+ [ 7.69649250e-01 -1.81121430e+00  3.58647248e-02]]
+elements:  molecule with 9 atom(s): C, O, C, H, H, H, N, H, H
+****************** Frequencies of All Models **********************
