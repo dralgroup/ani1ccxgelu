@@ -1,0 +1,11 @@
+%nproc=1
+#p opt(nomicro) external='/mlatom/software/miniconda3/bin/python /mlatom/home/fatemealavi/mlatom_devBranch/mlatom/interfaces/gaussian_interface.py model_predict_kwargs'
+ 
+7378a76d-95f7-424d-b399-82be873db2f4
+ 
+0 1
+C            -0.5325309375000          -0.0000085625000           0.0000053125000
+O             0.6779790625000           0.0000074375000          -0.0000066875000
+H            -1.1143159375000           0.9341714375000          -0.0000086875000
+H            -1.1143309375000          -0.9341795625000           0.0000303125000
+ 
