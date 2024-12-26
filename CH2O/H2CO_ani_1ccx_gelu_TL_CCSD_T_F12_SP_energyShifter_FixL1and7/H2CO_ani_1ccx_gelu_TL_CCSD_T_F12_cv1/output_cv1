@@ -1,9 +1,0 @@
-ml:
- <module 'mlatom' from '/mlatom/home/fatemealavi/mlatom_devBranch/mlatom/__init__.py'>
-************************ ANI-1ccx_GELU **************************
-model loaded from /mlatom/home/fatemealavi/anharmonic/ANI_1ccx_H2CO_new_model/H2CO_ANI_1ccx_TLOnCCSDT_F12_SP_energyShifter_FixL1and7/ani1ccx_gelu_TL_ani1x_gelu_byFateme/cv1.pt
-Optimized Geometry for Ani_1ccx_gelu:
- [[-5.31148476e-01  1.71903217e-08  9.94805007e-05]
- [ 6.75763326e-01 -1.24547148e-07 -6.28527481e-05]
- [-1.10960696e+00  9.38202533e-01 -6.66145704e-05]
- [-1.10960878e+00 -9.38201639e-01 -2.74464476e-05]]
