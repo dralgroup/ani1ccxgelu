@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/mlatom/home/fatemealavi/anharmonic/ANI_1ccx_H2CO_new_model/H2CO_ANI_1ccx_TLOnCCSDT_F12_SP_energyShifter_FixL1and7/H2CO_ANI_1ccx_TLonCCSDT_F12_cv1/master.py", line 45, in <module>
-    print("ZPE: ", molecule.anharmonic_ZPE)
-                   ^^^^^^^^
-NameError: name 'molecule' is not defined
