@@ -16,9 +16,9 @@ This repository contains codes and scripts for utilizing and fine-tuning a refor
 
 ## Files & Inputs
 
- **"filename"**: Contains data for molecules located in the **Data Folder**. The data is taken from a previous study (see https://pubs.acs.org/doi/10.1021/acs.jctc.1c00249)
- **"model_file"**: Refers to the ANI-1ccx-gelu model, which is stored in the **ani-1ccx-gelu Folder**.  
- **freq_otherMethods.csv**: Includes calculated anharmonic frequencies using MP2 ab initio calculations, PhysNet models (NN1, NN2), and experimental data.
+- **"filename"**: Contains data for molecules located in the **Data Folder**. The data is taken from a previous study (see https://pubs.acs.org/doi/10.1021/acs.jctc.1c00249)
+- **"model_file"**: Refers to the ANI-1ccx-gelu model, which is stored in the **ani-1ccx-gelu Folder**.  
+- **freq_otherMethods.csv**: Includes calculated anharmonic frequencies using MP2 ab initio calculations, PhysNet models (NN1, NN2), and experimental data.
 
 ## How to Run the Scripts
 
