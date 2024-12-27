@@ -14,6 +14,12 @@ This repository contains codes and scripts for utilizing and fine-tuning a refor
     - **train.py**: The main script for retraining the ANI-1ccx-gelu model.
     - **master.py**: The main script for calculating anharmonic (or harmonic) frequencies using the TL ANI-1ccx-gelu model.
 
+- Files & Inputs
+
+- **"filename"**: Contains data for molecules located in the **Data Folder**.  
+- **"model_file"**: Refers to the ANI-1ccx-gelu model, which is stored in the **ani-1ccx-gelu Folder**.  
+- **freq_otherMethods.csv**: Includes calculated anharmonic frequencies using MP2 ab initio calculations, PhysNet models (NN1, NN2), and experimental data.
+
 ## How to Run the Scripts
 
 To run these scripts, use Python that meets the basic requirements available at [mlatom.com](http://mlatom.com/download/). 
@@ -26,7 +32,7 @@ To run these scripts, use Python that meets the basic requirements available at 
 
 - **Note**: To calculate harmonic frequencies, simply set the `anharmonic` parameter to `False` in the `ml.simulation` module.
 
-## Files and Outputs
+## Outputs
 
 - The **"anharmonicfreq.txt"** file contains the calculated anharmonic frequencies, as well as other methods for comparison.
 
