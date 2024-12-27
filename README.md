@@ -26,7 +26,7 @@ To run scripts, use Python that meets the basic requirements available at [mlato
 
 - To fine-tune the ANI-1ccx-gelu model for a new problem (specific molecule and/or level of theory), run the `train.py` script. For example, you can view the calculations for all molecules in this project in folders named after the respective molecules. For instance, for CH2O molecule, there are three subfolders corresponding to three datasets: MP2, CCSD(T), and CCSD(T)-F12.
 
-- For each of these calculations, fine-tuning is necessary for each of the eight models in ANI-1ccx-gelu by running the `train.py` script, as shown for example in the folder "H2CO_ani_1ccx_gelu_TL_CCSD_T_F12_cv0". Before runing train.py, please change "filename" and "model_file" to your considered data and model paths. The eight TL models are located in a folder named "ani1-ccx-gelu_TL_CCSD_T_F12".
+- For each of these calculations, fine-tuning is necessary for each of the eight models in ANI-1ccx-gelu by running the `train.py` script, as shown for example in the folder "H2CO_ani_1ccx_gelu_TL_CCSD_T_F12_cv0". Before runing train.py, please change `filename` and `model_file` to your considered data and model paths. The eight TL models are located in a folder named "ani1-ccx-gelu_TL_CCSD_T_F12".
 
 - Using the fine-tuned ANI-1ccx-gelu model, you can calculate anharmonic frequencies with the `master.py` script. 
 
