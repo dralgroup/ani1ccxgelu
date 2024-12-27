@@ -2,7 +2,7 @@
 
 This repository contains models and scripts for:
 
-- Seyedeh Fatemeh Alavi, Yuxinxin Chen, Yi-Fan Hou, Fuchun Ge, Peikun Zheng, Pavlo O. Dral. *Towards Accurate and Efficient Anharmonic Vibrational Frequencies with the Universal Interatomic Potential ANI-1ccx-gelu and Its Fine-Tuning*. **2024**. Preprint on ChemRxiv: https://doi.org/10.26434/chemrxiv-2024-c8s16 (2024-10-09).
+- Seyedeh Fatemeh Alavi, Yuxinxin Chen, Yi-Fan Hou, Fuchun Ge, Peikun Zheng, Pavlo O. Dral*. *Towards Accurate and Efficient Anharmonic Vibrational Frequencies with the Universal Interatomic Potential ANI-1ccx-gelu and Its Fine-Tuning*. **2024**. Preprint on ChemRxiv: https://doi.org/10.26434/chemrxiv-2024-c8s16 (2024-10-09).
 
 This repository contains codes and scripts for utilizing and fine-tuning a reformulated Universal Interatomic Potential (UIP), **ANI-1ccx-gelu**, to calculate anharmonic vibrational frequencies of various molecules, including H2CO, HCOOH, HNO2, cH3OH, CH3CHO, CH3NO2, CH3COOH, and CH3CONH3. While ANI-1ccx demonstrates excellent thermochemical performance, its limitations in anharmonic frequency calculations are addressed in this enhanced version. This UIP represents a significant step forward in using machine learning for interpreting molecular spectra, reducing computational cost while maintaining accuracy comparable to B3LYP/6-31G*.
 
