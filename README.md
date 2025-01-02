@@ -2,7 +2,7 @@ This repository contains models and scripts for:
 
 - Seyedeh Fatemeh Alavi, Yuxinxin Chen, Yi-Fan Hou, Fuchun Ge, Peikun Zheng, [Pavlo O. Dral](http://dr-dral.com)*. [ANI-1ccx-gelu Universal Interatomic Potential and Its Fine-Tuning: Toward Accurate and Efficient Anharmonic Vibrational Frequencies](https://doi.org/10.1021/acs.jpclett.4c03031). *J. Phys. Chem. Lett.* **2025**, in press. DOI: 10.1021/acs.jpclett.4c03031. Preprint on ChemRxiv: https://doi.org/10.26434/chemrxiv-2024-c8s16 (2024-10-09).
 
-Please also check the related [tutorials](https://xacs.xmu.edu.cn/docs/mlatom/tutorial_universalml.html#fine-tuning-universal-models) on using MLatom for calculations with the universal models and their fine-tuning.
+Please also check the related [tutorials](https://xacs.xmu.edu.cn/docs/mlatom/tutorial_universalml.html#fine-tuning-universal-models) on using [MLatom](https://github.com/dralgroup/mlatom) for calculations with the universal models and their fine-tuning.
 
 # Models and scripts
 
